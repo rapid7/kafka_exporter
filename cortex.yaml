@@ -1,0 +1,17 @@
+---
+info:
+  title: kafka_exporter
+  description: Kafka exporter for Prometheus
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/kafka_exporter
+  x-cortex-tag: kafka_exporter
+  x-cortex-type: service
+  x-cortex-domain-parents:
+    - tag: data-platform-transport
+  x-cortex-groups:
+    - exposure:opensource
+openapi: 3.0.0
+servers:
+  - url: "/"
